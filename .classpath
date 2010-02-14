@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/home/patxi/Documentos/actividades/Sidelab/commons-codec-1.4/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/patxi/Documentos/actividades/Sidelab/commons-httpclient-3.1/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/patxi/Documentos/actividades/Sidelab/apache-xmlrpc-3.1.2/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/patxi/Documentos/actividades/Sidelab/apache-xmlrpc-3.1.2/lib/ws-commons-util-1.0.2.jar" sourcepath="/home/patxi/Documentos/actividades/Sidelab/apache-xmlrpc-current-src.zip"/>
+	<classpathentry kind="lib" path="/home/patxi/Documentos/actividades/Sidelab/apache-xmlrpc-3.1.2/lib/xmlrpc-client-3.1.2.jar" sourcepath="/home/patxi/Documentos/actividades/Sidelab/apache-xmlrpc-current-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/home/patxi/Documentos/actividades/Sidelab/apache-xmlrpc-3.1.2/docs/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/patxi/Documentos/actividades/Sidelab/apache-xmlrpc-3.1.2/lib/xmlrpc-common-3.1.2.jar" sourcepath="/home/patxi/Documentos/actividades/Sidelab/apache-xmlrpc-current-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/home/patxi/Documentos/actividades/Sidelab/apache-xmlrpc-3.1.2/docs/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/patxi/Documentos/actividades/Sidelab/apache-xmlrpc-3.1.2/lib/xmlrpc-server-3.1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
