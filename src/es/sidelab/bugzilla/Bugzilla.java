@@ -36,7 +36,7 @@ public class Bugzilla {
 			XmlRpcException {
 		XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
 		config.setServerURL(new URL(
-				"http://labs.gavab.es/cgi-bin/bugzilla3/xmlrpc.cgi"));
+				"http://bugzilla-url/xmlrpc.cgi"));
 
 		final XmlRpcClient client = new XmlRpcClient();
 		client.setConfig(config);
