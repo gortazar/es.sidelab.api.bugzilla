@@ -1,4 +1,14 @@
-package es.sidelab.bugzilla;
+/*******************************************************************************
+ * This file is part of sidelab Bugzilla API.
+ * 
+ * Copyright (c) sidelab Team.
+ * http://www.sidelab.es/
+ * 
+ * This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *******************************************************************************/package es.sidelab.bugzilla;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -49,8 +59,8 @@ public class Bugzilla {
 //			client.setTransportFactory(factory);
 
 		Map map = new HashMap();
-		map.put("login", "p.gortaza@gmail.com");
-		map.put("password", "shakta1e");
+		map.put("login", "<login_account>");
+		map.put("password", "<bugzilla_passwd");
 
 		Map result = (Map) client.execute("User.login", new Object[] { map });
 		System.out.println("Result = " + result);
@@ -78,7 +88,7 @@ public class Bugzilla {
         }
                 
 //        Map searchParams = new HashMap();
-//		searchParams.put("assigned_to", "p.gortaza@gmail.com");
+//		searchParams.put("assigned_to", "<login_account>");
 //		
 //		Map bugs = (Map) client.execute("Bug.search", new Object[] {searchParams});
 //		System.out.println("Result = " + bugs);
